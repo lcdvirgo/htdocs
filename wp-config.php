@@ -14,18 +14,49 @@
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
+
+/* 
+HEROKU DATABASE
+Host	ec2-54-221-236-4.compute-1.amazonaws.com
+Database	d3iocpcnrkel2s
+User	zrzjyycxopfryx
+Port	5432
+Password	yqW611mh0Mbny35zchI4Dm0voS
+*/
+
+/* 
+LOCAL HOST
 define('DB_NAME', 'wordpressdb');
 
-/** MySQL database username */
+
 define('DB_USER', 'root');
 
-/** MySQL database password */
+
 define('DB_PASSWORD', 'root');
 
-/** MySQL hostname */
+
 define('DB_HOST', 'localhost');
+
+define('DB_CHARSET', 'utf8');
+
+
+define('DB_COLLATE', '');
+
+*/
+
+
+// ** MySQL settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define('DB_NAME', 'd3iocpcnrkel2s');
+
+/** MySQL database username */
+define('DB_USER', 'zrzjyycxopfryx');
+
+/** MySQL database password */
+define('DB_PASSWORD', 'yqW611mh0Mbny35zchI4Dm0voS');
+
+/** MySQL hostname */
+define('DB_HOST', 'ec2-54-221-236-4.compute-1.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
