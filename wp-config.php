@@ -47,16 +47,16 @@ define('DB_COLLATE', '');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'd3iocpcnrkel2s');
+define('DB_NAME', 'wordpressdb');
 
 /** MySQL database username */
-define('DB_USER', 'zrzjyycxopfryx');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'yqW611mh0Mbny35zchI4Dm0voS');
+define('DB_PASSWORD', 'root');
 
 /** MySQL hostname */
-define('DB_HOST', 'ec2-54-221-236-4.compute-1.amazonaws.com');
+define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
